@@ -1,0 +1,64 @@
+body {
+    background-color: #1b263b;
+    color: #f7f7f7;
+    font-family: "Geist", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    width: 500px;
+    background-color: #f7f7f7;
+    color: black;
+    margin: auto;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px #151e30b9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  width: 90px;
+  height: 40px;
+  border-radius: 15px;
+  background-image: linear-gradient(135deg, rgb(27, 50, 180) 0%, #7787e2 100%);
+  box-shadow: 0 20px 30px -6px rgba(97, 135, 238, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
